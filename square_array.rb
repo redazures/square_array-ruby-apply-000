@@ -8,4 +8,5 @@ def tests(array)
     num**2
   end
 end
-puts
+
+puts tests(numbers)
