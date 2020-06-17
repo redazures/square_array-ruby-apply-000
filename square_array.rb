@@ -4,9 +4,11 @@ end
 
 numbers=[1,2,3]
 def tests(array)
+  ara=[]
   array.each do |num|
     num**2
   end
+  ara
 end
 
 puts tests(numbers)
