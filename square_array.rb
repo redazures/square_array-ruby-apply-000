@@ -1,5 +1,5 @@
 def square_array(array)
-  # your code here
+  array.each_with_object([]) {|num,ara| ara<<num**2}
 end
 
 numbers=[1,2,3]
