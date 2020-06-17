@@ -12,8 +12,7 @@ def test(array)
 end
 
 def test2(array)
-  array.each do |num|
-    ara << num**2
+  array.each_with_object([]) do |num|
   end
 end
 
