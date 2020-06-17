@@ -5,5 +5,5 @@ end
 numbers=[1,2,3]
 
 numbers.each do |num|
-  number**2
+  num**2
 end
