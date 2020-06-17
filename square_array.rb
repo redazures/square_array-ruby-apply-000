@@ -16,4 +16,4 @@ def test2(array)
   end
 end
 
-puts tests(numbers)
+puts test2(numbers)
