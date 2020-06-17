@@ -11,4 +11,12 @@ def tests(array)
   ara
 end
 
+def test2(array)
+  ara=[]
+  array.each do |num|
+    ara << num**2
+  end
+  ara
+end
+
 puts tests(numbers)
