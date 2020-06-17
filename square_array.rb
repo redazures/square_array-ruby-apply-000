@@ -12,7 +12,7 @@ def test(array)
 end
 
 def test2(array)
-  array.each_with_object([]) do |num|
+  array.each_with_object([]) {|num,ara| ara<<num**2}
   end
 end
 
