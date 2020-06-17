@@ -3,7 +3,9 @@ def square_array(array)
 end
 
 numbers=[1,2,3]
-
-numbers.each do |num|
-  num**2
+def tests(array)
+  array.each do |num|
+    num**2
+  end
 end
+puts
